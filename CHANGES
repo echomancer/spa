@@ -1,0 +1,21 @@
+Version 0.1.0
+ - Adding bumpversion
+ - Adding cyborg bootstrap theme and editing my content color
+ - Merging in work with old fss version
+ - Adding base roles
+ - Initial changes to devise
+ - rails_apps_composer: extras
+ - rails_apps_composer: set up database
+ - rails_apps_composer: cucumber files
+ - rails_apps_composer: rspec files
+ - rails_apps_composer: add README files
+ - rails_apps_composer: routes
+ - rails_apps_composer: views
+ - rails_apps_composer: controllers
+ - rails_apps_composer: testing framework
+ - rails_apps_composer: models
+ - rails_apps_composer: generators
+ - rails_apps_composer: set email accounts
+ - rails_apps_composer: Gemfile
+ - rails_apps_composer: initial commit
+
