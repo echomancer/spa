@@ -2,8 +2,8 @@
 %html
   %head
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1.0"}
-    %title= content_for?(:title) ? yield(:title) : 'Fss'
-    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Fss'}"}
+    %title= content_for?(:title) ? yield(:title) : 'Simple Pantry Application'
+    %meta{:name => "description", :content => "#{content_for?(:description) ? yield(:description) : 'Simple Pantry Application'}"}
     = stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true
     = javascript_include_tag "application", "data-turbolinks-track" => true
     = csrf_meta_tags
