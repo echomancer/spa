@@ -1,4 +1,8 @@
-%h3 Home
+%h3 Users
 - @users.each do |user|
   %p
     User: #{link_to user.name, user}
+%h3 Stores
+- @stores.each do |store|
+  %p
+    Store: #{link_to store.name, store}

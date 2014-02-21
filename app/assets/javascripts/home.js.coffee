@@ -9,7 +9,8 @@ row_click = ->
 
 # Create a ready function
 ready = ->
-	$('tr').on('click', row_click);
+	if $("#access").length != 0
+		$('tr').on('click', row_click);
 
 # Now link that ready function to document ready
 $(document).ready(ready);
